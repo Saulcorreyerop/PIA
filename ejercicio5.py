@@ -1,0 +1,5 @@
+horasTrabajadas = int(input("¿Cuántas horas has trabajado? : "))
+print ("Horas Trabajadas = " , horasTrabajadas)
+precioHoras = int(input("¿Precio de la hora? : "))
+print ("Precio de la hora = " , precioHoras)
+print("Coste total de" , horasTrabajadas , " horas * " , precioHoras , " € la hora, = " , (horasTrabajadas * precioHoras) , "€")
